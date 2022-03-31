@@ -1,0 +1,120 @@
+/* Normalização */
+
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background: #72acce;
+}
+
+.my-video {
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+.text {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: aliceblue;
+  width: 100%;
+  padding: 20px;
+}
+.text h1 {
+  color: #c6c6c6;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.text p {
+  color: white;
+  font-size: 100%;
+  font-family: sans-serif;
+  width: 60%;
+  margin: 10px auto;
+  text-align: center;
+  line-height: 25px;
+}
+
+.butao {
+  width: 400px;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  outline: none;
+  border: none;
+  color: #fff;
+  background: #08f;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 5px auto;
+  display: block;
+  transition: 0.9;
+}
+.butao:hover {
+  color: #08f;
+  background: #fff;
+}
+
+/* Celular Tela Grande */
+@media (min-width: 440px) and (max-width: 740px) {
+  .text h1 {
+    font-size: 25px;
+    color: rgb(240, 240, 173);
+  }
+  .text p {
+    color: white;
+    font-size: 17px;
+    width: 90%;
+  }
+  .butao {
+    width: 200px;
+   font-size: 15px;
+  }
+
+  /* Tablet */
+@media (min-width: 740px) and (max-width: 1024) {
+  .text h1 {
+    font-size: 35px;
+    color: rgb(240, 240, 173);
+  }
+  .text p {
+    color: #c6c6c6;
+    font-size: 18px;
+    width: 80%;
+  }
+  .butao {
+    width: 300px;
+   font-size: 17px;
+  }
+
+    /* Celular Tela Pequena */
+@media (max-width: 440px) {
+  .text h1 {
+    font-size: 20px;
+    color: rgb(240, 240, 173);
+  }
+  .text p {
+    color: #c6c6c6;
+    font-size: 15px;
+    width: 90%;
+    padding-right: 30px;
+  }
+  .butao {
+    width: 200px;
+   font-size: 14px;
+   margin-left: ;
+  }
+  .text {
+
+  }
+

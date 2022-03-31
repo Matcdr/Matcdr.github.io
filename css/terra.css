@@ -1,0 +1,113 @@
+/* normalização  */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* início do CSS */
+body {
+  background-attachment: fixed;
+}
+.bg {
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+#titulo {
+  width: 500px;
+  height: 120px;
+  background: rgba(138, 162, 149, 0.317);
+  padding: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+#titulo h1 {
+  font-size: 50px;
+  color: rgb(7, 73, 73);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-variant: small-caps;
+  position: relative;
+  justify-content: flex-start;
+}
+
+#titulo h2 {
+  font-size: 25px;
+  color: rgb(7, 73, 73);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-variant: small-caps;
+}
+
+.capa {
+  background: rgba(255, 255, 255, 0.214);
+  padding: 15px 15px 40px;
+  box-shadow: 1px 1px 2px #2222226f;
+}
+.capa img {
+  width: 100%;
+  height: 690px;
+  object-fit: cover;
+  object-position: center;
+}
+.video {
+  background: rgba(177, 156, 156, 0.214);
+  padding: 15px 15px 40px;
+  box-shadow: 1px 1px 2px #2222226f;
+}
+.video img {
+  width: 100%;
+  height: 690px;
+  object-fit: cover;
+  object-position: center;
+}
+.manchete {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-content: stretch;
+  gap: 40px;
+  margin: 40px;
+  padding: 20px;
+}
+.noticias {
+  background: rgba(255, 255, 255, 0.214);
+  padding: 15px 15px 40px;
+  box-shadow: 1px 1px 2px #2222226f;
+}
+.noticias img {
+  width: 100%;
+  height: 290px;
+  object-fit: cover;
+  object-position: center;
+}
+.mae {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin: 40px;
+  padding: 20px;
+}
+.entrevista {
+  background: rgba(255, 255, 255, 0.214);
+  padding: 15px 15px 40px;
+  box-shadow: 1px 1px 2px #2222226f;
+}
+.entrevista img {
+  width: 100%;
+  height: 1000px;
+  object-fit: cover;
+  object-position: center;
+}

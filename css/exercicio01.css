@@ -1,0 +1,74 @@
+body {
+    background: linear-gradient(rgb(254, 191, 1), #c3c3c3);
+    margin: 8px;  
+    background-repeat: no-repeat; 
+    background-attachment: fixed;    
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    font-weight: 700;
+    margin: 46.9px 0px;
+    text-align: center;
+}
+hr {
+    background-color: black; 
+    width: 944px;
+    height: 10px;
+    margin: auto; 
+    border: none;
+}
+#caixa {
+    display: grid;    
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+   
+    
+}
+.item {
+    height: 208px;
+    border: none;
+    background: #222222;    
+    border-radius: 5px;
+    padding: 20px;
+       }
+h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0px;
+}
+h2 span {
+    color: #febe01;
+    
+}
+p {
+    color: #b2b2b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    margin: 20px 0;
+}
+p span {
+    color: #febe01;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    }
+a {
+    width: 205px;
+    height: 45px;
+    text-decoration: none;
+    border-color: #febe01;
+    background: #febe01;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid transparent;      
+}
+a:hover {
+    background: #222222;
+    color: #febe01;
+    border: 1px solid #febe01;   
+}

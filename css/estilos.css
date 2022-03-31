@@ -1,0 +1,66 @@
+h1 {
+   text-align: center;
+   font-size: 60px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: rgb(35, 97, 6);
+   text-shadow: -1px -5px 5px #000000;
+}
+p {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size:14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(6, 150, 78, 0.658)
+}
+hr {
+    width: 50%;   
+    height: 15px;
+    border-color: rgba(0, 128, 0, 0.774);
+    background: green;
+}
+.linha {
+    background: rgb(4, 80, 4);
+}
+
+#menina {
+   width: 50%; 
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+.videozinho {
+   width: 50%; 
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+a {
+    text-decoration: none;
+    color: rgba(6, 150, 78, 0.658);
+    font-weight: 700;
+}
+a:hover {
+    text-decoration: underline;
+    color: aquamarine;
+}   
+.textorodape {
+    text-align: center;
+}
+ a:visited {
+    color: blue;
+ }
+ body {
+    background: url("/imagens/forest-g64e0e4ebd_1920.jpg") ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-position: 90% 1%;
+    }
+    head {
+        
+    }
+
+

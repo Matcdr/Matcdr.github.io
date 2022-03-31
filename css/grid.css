@@ -1,0 +1,23 @@
+#pai {
+  background: rgb(108, 150, 164);
+  width: 1000px;
+  height: 600px;
+  border: 3px solid red;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  place-content: strech center;
+}
+.item {
+  background: #222222;
+  color: white;
+  height: 60px;
+}
+.espacosa {
+  grid-column: 1/-1;
+  background: red;
+}
+.espacinha {
+  grid-column: span 2;
+  background: blue;
+}
